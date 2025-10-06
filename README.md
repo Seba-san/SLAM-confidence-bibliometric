@@ -10,7 +10,7 @@ Our work argues that the academic SLAM community has inadvertently shifted its f
 
 The figure below is central to our argument. It visualizes the historical divergence in research focus over three decades, quantitatively demonstrating how the rise of optimization-based methods and evaluation benchmarks correlates with a relative decline in research dedicated to explicit uncertainty and covariance estimation.
 
-![Bibliometric analysis of SLAM research trends showing the divergence between optimization-based methods and uncertainty estimation.](./figures/figure_1_slam_trends.png)
+![Bibliometric analysis of SLAM research trends showing the divergence between optimization-based methods and uncertainty estimation.](./figure_1.png)
 > **Figure 1:** An illustration of the historical shift in SLAM research focus, depicting the relative decline in explicit uncertainty estimation. The graph plots the proportion of publications mentioning key terms related to filter-based, optimization-based, and uncertainty-centric methods.
 
 Below, we provide a detailed breakdown of the methodology, the raw data, the plotting script, and instructions on how to cite our work.
