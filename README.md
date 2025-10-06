@@ -1,3 +1,21 @@
+# Repository for "The SLAM Confidence Trap"
+
+This repository contains the data, methodology, and code used to generate the bibliometric analysis in our paper:
+
+**The SLAM Confidence Trap**  
+*Sebastian Sansoni, Santiago Ramón Tosetti*  
+Published in the *International Conference on Advanced Robotics (ICAR), 2025.*
+
+Our work argues that the academic SLAM community has inadvertently shifted its focus from robust, probabilistic uncertainty estimation towards benchmark-driven geometric accuracy. This has led to the development of systems that, while precise in controlled environments, are brittle in the real world—a phenomenon we term the "SLAM Confidence Trap."
+
+The figure below is central to our argument. It visualizes the historical divergence in research focus over three decades, quantitatively demonstrating how the rise of optimization-based methods and evaluation benchmarks correlates with a relative decline in research dedicated to explicit uncertainty and covariance estimation.
+
+![Bibliometric analysis of SLAM research trends showing the divergence between optimization-based methods and uncertainty estimation.](./figures/figure_1_slam_trends.png)
+> **Figure 1:** An illustration of the historical shift in SLAM research focus, depicting the relative decline in explicit uncertainty estimation. The graph plots the proportion of publications mentioning key terms related to filter-based, optimization-based, and uncertainty-centric methods.
+
+Below, we provide a detailed breakdown of the methodology, the raw data, the plotting script, and instructions on how to cite our work.
+
+
 # Generation of Figure 1: The Shifting Focus of SLAM Research
 
 This document outlines the methodology, data, and code used to generate Figure 1, "The Shifting Focus of SLAM Research: A Relative Decline in Uncertainty Estimation," for our paper, "The SLAM Confidence Trap."
